@@ -1,7 +1,7 @@
 import cv2
 from random import randint
 
-img = cv2.imread('assets/img.jpg', 1)
+img = cv2.imread('assets/dog.jpg', 1)
 img = cv2.resize(img, (500, 500))
 winname = "Image"
 
